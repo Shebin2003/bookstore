@@ -31,3 +31,8 @@ To access protected `/api/books` routes, you must first login and get a token.
   "password": "pass123"
 }
 ``` 
+## 📚 API Documentation (Swagger)
+
+This project includes interactive API documentation powered by [Swagger UI](https://swagger.io/tools/swagger-ui/).
+
+---
