@@ -1,7 +1,7 @@
 
 ##  Installation
 
-```bash
+
 git clone https://github.com/your-username/bookstore-api.git
 cd bookstore-api
 npm install
@@ -10,7 +10,6 @@ npm install
 
 You can easily test this API using [Postman](https://www.postman.com/)
 
----
 
 ### 1.Register a new user
 - **Endpoint:** `POST /api/register`
@@ -20,7 +19,7 @@ You can easily test this API using [Postman](https://www.postman.com/)
   "email": "test@example.com",
   "password": "pass123"
 }
-
+``` 
 ### 2.Login to get a JWT token
 To access protected `/api/books` routes, you must first login and get a token.
 
@@ -31,3 +30,4 @@ To access protected `/api/books` routes, you must first login and get a token.
   "email": "test@example.com",
   "password": "pass123"
 }
+``` 
